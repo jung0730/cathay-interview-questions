@@ -47,7 +47,7 @@ Please write down a function to console log unique value from this array.
 
 ```javascript
 function getUniqueNumber (items) {
-  return new Set(items);
+  return [...new Set(items)];
 }
 ```
 
